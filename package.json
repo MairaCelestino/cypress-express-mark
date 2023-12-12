@@ -4,8 +4,13 @@
   "description": "Projeto de testes de ponta a ponta no Mark L",
   "main": "index.js",
   "author": "Maira Celestino",
-  "license": "MIT",
+  "l2icense": "MIT",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "allure-commandline": "^2.25.0",
     "cypress": "^13.6.0"
+  },
+  "dependencies": {
+    "@mmisty/cypress-allure-adapter": "^0.16.2"
   }
 }
