@@ -15,6 +15,11 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import '@mmisty/cypress-allure-adapter/support';
+cachesrequire('@shelex/cypress-allure-plugin');
+
+
+//cypress run  --config video=true --env allure=true 
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
